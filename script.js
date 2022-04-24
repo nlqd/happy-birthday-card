@@ -1,4 +1,9 @@
-const personalName = prompt("What's your name?");
+let button = document.getElementById("btn");
 
-let congratsMessage = document.getElementById("message");
-congratsMessage.innerHTML = "Happy birthday to " + personalName + "!";
+button.onclick = () => {
+    let text = document.getElementById("txt");
+    let congratsMessage = document.getElementById("message");
+    congratsMessage.innerHTML = "Happy birthday to " + text.value + "!";
+}
+
+
