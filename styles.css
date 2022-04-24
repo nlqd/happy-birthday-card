@@ -4,3 +4,33 @@
     font-family: system-ui;
     font-size: 70px;
 }
+
+#btn {
+    background-color: rgb(33, 33, 194);
+    border: 2px;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: system-ui;
+}
+
+#btn:hover {
+    background-color: rgb(31, 31, 231);
+}
+
+#txt {
+    font-family: system-ui;
+    font-size: 20px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px;
+}
